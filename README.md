@@ -110,6 +110,8 @@ As you build a wiki out with Foreground you will likely use the responsive grid 
 
 Because of this, it is suggested that you set the `$wgSkipSkins` variable to make sure that everyone sees the site as you intended it. This removes other skins from being user selectable options.
 
+*Note that the `$wgSkipSkins` variable has been deprecated with MediaWiki 1.23
+
     # Foreground is specific, so lets disable other skins
     $wgSkipSkins = array( 'chick', 'cologneblue', 'modern', 'myskin', 'nostalgia', 'simple', 'standard', 'filament', 'monobook', 'vector' );
 
